@@ -1,0 +1,364 @@
+@font-face {
+    font-family: digital-7;
+    src: url(/font/digital-7-font/Digital7-rg1mL.ttf);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+    margin: auto;
+    display: flex;
+    width: 375.32px;
+    height: 573.15px;
+    background-color: aquamarine;
+    align-items: center;
+    background-image: url(/img/back.jpg);
+    
+}
+.relative{
+    position: relative;
+
+}
+
+.display{
+    
+    position: absolute;
+    top: -240px;
+    left: 23px;
+    
+}
+
+
+.absolute2{
+    font-family: digital-7;
+    text-align: right;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    border-radius: 10px;
+    padding: 18px;
+    width: 270px;
+    height: 60px;
+    background-color: rgb(214, 222, 177);
+    position: absolute;
+    top: -228px;
+    left: 34px;
+    max-width: ch;
+    overflow:hidden;
+    text-overflow:initial ;
+    white-space: nowrap;
+}
+.absolute{
+    width: 329,7px;
+    height: 120,05px;
+    position: absolute;
+    top: -240px;
+    left: 23px;
+}
+
+.bt_ac{
+    position: absolute;
+    top: -97px;
+    left: 23px;
+
+}
+.bt_ac:hover{
+    filter: brightness(75%)
+}
+
+.bt_ac:active{
+    filter: brightness(50%)
+
+}
+
+.bt_ce{
+    position: absolute;
+    top: -97px;
+    left: 108px;
+}
+
+.bt_ce:hover{
+    filter: brightness(75%)
+}
+
+.bt_ce:active{
+    filter: brightness(50%)
+
+}
+
+.bt_pct{
+    position: absolute;
+    top: -97px;
+    left: 193px;
+}
+
+.bt_pct:hover{
+    filter: brightness(75%)
+}
+
+.bt_pct:active{
+    filter: brightness(50%)
+}
+
+.bt_divis{
+    position: absolute;
+    top: -97px;
+    left: 278px;
+}
+
+.bt_divis:hover{
+    filter: brightness(75%)
+}
+
+.bt_divis:active{
+    filter: brightness(50%)
+}
+
+.n7{
+    position: absolute;
+    top: -20px;
+    left: 23px;
+}
+
+.n7:hover{
+    filter: brightness(75%)
+}
+
+.n7:active{
+    filter: brightness(50%)
+}
+
+.n8{
+    position: absolute;
+    top: -20px;
+    left: 108px;
+}
+
+.n8:hover{
+    filter: brightness(75%)
+}
+
+.n8:active{
+    filter: brightness(50%)
+}
+
+.n9{
+    position: absolute;
+    top: -20px;
+    left:193px;
+
+}
+
+.n9:hover{
+    filter: brightness(75%)
+}
+
+.n9:active{
+    filter: brightness(50%)
+}
+
+.bt_mult{
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    left: 278px;
+}
+
+.bt_mult:hover{
+    filter: brightness(75%)
+}
+
+.bt_mult:active{
+    filter: brightness(50%)
+}
+
+.bt_add{
+    cursor: pointer;
+    position: absolute;
+    top: -97px;
+    left: 278px;
+}
+
+.bt_add:hover{
+    filter: brightness(75%)
+}
+
+.bt_add:active{
+    filter: brightness(50%)
+}
+
+.n4{
+    cursor: pointer;
+    position: absolute;
+    top: 53px;
+    left:23px;
+}
+
+.n4:hover{
+    filter: brightness(75%)
+}
+
+.n4:active{
+    filter: brightness(50%)
+}
+
+
+.n5{
+    cursor: pointer;
+    position: absolute;
+    top: 53px;
+    left:108px;
+}
+
+.n5:hover{
+    filter: brightness(75%)
+}
+
+.n5:active{
+    filter: brightness(50%)
+}
+
+
+.n6{
+    cursor: pointer;
+    position: absolute;
+    top: 53px;
+    left:193px;
+}
+
+.n6:hover{
+    filter: brightness(75%)
+}
+
+.n6:active{
+    filter: brightness(50%)
+}
+
+.bt_sub{
+    cursor: pointer;
+    position: absolute;
+    top: 53px;
+    left:278px;
+}
+
+.bt_sub:hover{
+    filter: brightness(75%)
+}
+
+.bt_sub:active{
+    filter: brightness(50%)
+}
+
+.n1{
+    cursor: pointer;
+    position: absolute;
+    top: 127px;
+    left:23px;
+}
+
+.n1:hover{
+    filter: brightness(75%)
+}
+
+.n1:active{
+    filter: brightness(50%)
+}
+
+.n2{
+    cursor: pointer;
+    position: absolute;
+    top: 127px;
+    left:108px;
+}
+
+.n2:hover{
+    filter: brightness(75%)
+}
+
+.n2:active{
+    filter: brightness(50%)
+}
+
+.n3{
+    cursor: pointer;
+    position: absolute;
+    top: 127px;
+    left:193px;
+}
+
+.n3:hover{
+    filter: brightness(75%)
+}
+
+.n3:active{
+    filter: brightness(50%)
+}
+
+.bt_add{
+    cursor: pointer;
+    position: absolute;
+    top: 127px;
+    left:278px;
+}
+
+.bt_add:hover{
+    filter: brightness(75%)
+}
+
+.bt_add:active{
+    filter: brightness(50%)
+}
+
+.n0{
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left:23px;
+}
+
+.n0:hover{
+    filter: brightness(75%)
+}
+
+.n0:active{
+    filter: brightness(50%)
+}
+
+.ponto{
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left:108px;
+}
+
+.ponto:hover{
+    filter: brightness(75%)
+}
+
+.ponto:active{
+    filter: brightness(50%)
+}
+
+.bt_igual{
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left:193px;
+}
+
+.bt_igual:hover{
+    filter: brightness(75%)
+}
+
+.bt_igual:active{
+    filter: brightness(50%)
+}
+
+.alinha{
+    cursor: pointer;
+    position: absolute;
+    top: 287px;
+    margin: auto;
+}
